@@ -1,0 +1,291 @@
+body{
+	background: var(--white);
+}
+
+.home-intro{
+	width: 100%;
+}
+
+
+.home-intro h1{
+	padding: 25% 80px 20px 80px;
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 110px;
+	line-height: 127px;
+
+	color: #000000;
+}
+
+.home-image-section{
+	width: 100%;
+	height: 60vh;
+
+	overflow: hidden;
+}
+
+.home-image-section img{
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.home-text-section-eco{
+	padding: 150px 80px 0px 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-text-section-eco h2{
+	width: 40%;
+}
+
+.home-text-section-eco h3{
+	width: 48%;
+}
+
+/*nav-section-home*/
+.nav-section-home{
+	margin-top: 150px;
+	padding: 50px 80px 50px 80px;
+	display: flex;
+	width: 100%;
+	background: #F3F3F3;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-container-home{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+
+
+.nav-container-home a{
+	width: 100%;
+	border-bottom: 1px solid #C1C1C1;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+
+}
+
+.nav-container-home a:hover{
+	transition: 0.3s ease;
+	color: #69FFA5;
+}
+
+.nav-container-home a:last-child{
+	margin-bottom: 0px;
+}
+
+.gif-container-home{
+	width: 45%;
+	height: 60vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+/*Agency section*/
+
+.agency-section{
+	padding: 150px 80px 0px 80px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.agency-title-left{
+	width: 40%;
+}
+
+.agence-point-clmn{
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+}
+
+.agence-point-clmn p{
+	margin-bottom: 60px;
+}
+
+.button-disover{
+	background: black;
+	width: 230px;
+	height: 50px;
+	display: flex;
+	justify-content: center;align-items: center;
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 141.6%;
+	/* identical to box height, or 23px */
+	transition: 0.2s ease;
+
+	color: #FFFFFF;
+}
+
+.button-disover:hover{
+	transition: 0.4s ease;
+	background: #555555;
+}
+
+
+
+.agence-point-clmn a:last-child svg{
+	margin-left: 20px;
+}
+
+/*best team section*/
+.best-team-section{
+	padding: 100px 80px 0px 80px;
+	width: 40%;
+}
+
+.best-team-section h3{
+	margin-bottom: 20px;
+}
+
+/*project section*/
+.project-section{
+	padding: 150px 80px 0px 80px;
+
+}
+
+.top-project-section{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+
+	margin-bottom: 40px;
+}
+
+.top-project-section a svg{
+	margin-right: 15px;
+}
+
+.top-project-section a:hover{
+	transition: 0.3s ease;
+	color: #69FFA5;
+}
+
+.bottom-project-section{
+	display: flex;justify-content: center;align-items: center;
+	width: 100%;
+	height: 70vh;
+	overflow: hidden;
+}
+
+/*value by vupar*/
+.value-vupar{
+	padding: 100px 80px 100px 80px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.value-vupar h3{
+	width: 30%;
+}
+
+
+.right-content-value{
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+}
+
+.right-content-value p{
+	margin-bottom: 20px;
+	padding: 40px 0px 40px 0px;
+	border-bottom: 1px solid #C1C1C1;
+}
+
+.right-content-value a:hover{
+	transition: 0.3s ease;
+	color: #69FFA5;
+}
+
+
+/*image copain section*/
+
+.image-section-copain{
+	padding: 100px 80px 100px 80px;
+	background: black; 
+	width: 100%;
+}
+
+.top-image-section{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	align-items: center;
+}
+
+.top-image-section a{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+	color: white;
+
+	text-transform: uppercase;
+}
+
+.image-scroll-copain{
+	display: flex;
+	width: 100%;
+	overflow-x: scroll;
+	margin-bottom: 150px;
+}
+
+.image-box{
+	margin-right: 20px;
+}
+
+.image-box:last-child{
+	margin-right: 0px;
+}
+
+.image-box p{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 160%;
+	/* identical to box height, or 26px */
+
+
+	/* BW/White */
+
+	color: #FFFFFF;
+}
+
+.img-box-content{
+	width: 362px;
+	height: 406px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.img-box-content img{
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+}
+
+.text-image-scroll{
+	width: 50%;
+}
+
+
+

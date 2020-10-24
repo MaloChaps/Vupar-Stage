@@ -1,0 +1,328 @@
+@font-face {
+	font-family: "Suisse Regular";
+	src: url('../../fonts/SuisseIntl-Regular.otf');
+}
+
+@font-face {
+	font-family: "Suisse Bold";
+	src: url('../../fonts/SuisseIntl-Bold.otf');
+}
+
+@font-face {
+	font-family: "Suisse Book";
+	src: url('../../fonts/SuisseIntl-Book.otf');
+}
+
+@font-face {
+	font-family: "Suisse Medium";
+	src: url('../../fonts/SuisseIntl-Medium.otf');
+}
+
+@font-face {
+	font-family: "Suisse light";
+	src: url('../../fonts/SuisseIntl-Light.otf');
+}
+
+@font-face {
+	font-family: "emoji";
+	src: url('../../fonts/GoodGlyphs-No1.otf');
+}
+
+
+
+html *{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+/*scroll bar css*/
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ display: none;
+}
+
+body{
+	scroll-behavior: smooth;
+	background: var(--white);
+
+	/*color*/
+	 --black: black;
+  --grey-light: #F6F6F6;
+  --grey-line: #C1C1C1;
+  --white: #FFFFFF;
+  --grey-dark: #555555;
+  --grey-text: #B2B2B2;
+}
+
+
+/*Font guidelines*/
+
+
+/*font black*/
+.h1-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 140%;
+	
+	color: var(--black);
+}
+
+.h2-black{
+	font-family: Suisse light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 44px;
+	line-height: 138.5%;
+
+	color: var(--black);
+}
+
+.h3-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 40px;
+
+	color: var(--black);
+}
+
+
+.h4-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 157.5%;
+
+	color: var(--black);
+}
+
+.h5-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 160%;
+
+	color: var(--black);
+}
+
+.h6-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 160%;
+
+	color: var(--black);
+}
+
+.h6-grey{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 160%;
+
+	color: var(--grey-text);
+}
+
+.text-16-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 160%;
+
+	color: var(--black);
+}
+
+.text-14-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: var(--black);
+}
+
+
+/*font white*/
+
+.h1-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 140%;
+
+	color: var(--white);
+}
+
+.h2-white{
+	font-family: Suisse light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 44px;
+	line-height: 138.5%;
+
+	color: var(--white);
+}
+
+.h3-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 40px;
+
+	color: var(--white);
+}
+
+
+.h4-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 157.5%;
+
+	color: var(--white);
+}
+
+.h5-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 160%;
+
+	color: var(--white);
+}
+
+.h6-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 160%;
+
+	color: var(--white);
+}
+
+.text-16-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 160%;
+
+	color: var(--white);
+}
+
+.text-14-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 150%;
+
+	color: var(--white);
+}
+
+
+/*font bold*/
+.text-16-black-bold{
+	font-family: Suisse Book;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+
+	color: var(--black);
+}
+
+.text-16-black-white{
+	font-family: Suisse Book;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+
+	color: var(--white);
+}
+
+
+/*CTA Texte*/
+
+.cta-blockquote-white{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration-line: underline;
+
+	color: var(--white);
+	transition: 0.3s ease;
+}
+
+.cta-blockquote-white:hover{
+	color: #69FFA5;
+	transition: 0.3s ease;
+}
+
+.cta-blockquote-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration-line: underline;
+
+	color: var(--black);
+}
+
+
+.cta-16-black{
+	font-family: Suisse Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 160%;
+	text-decoration: none;
+	color: var(--black);
+}
+
+
+
+
+
+
+
+
+
